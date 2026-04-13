@@ -8,7 +8,6 @@ A lightweight Firefox extension that automatically sets your YouTube playback sp
 
 - Set any playback speed from **0.25x to 2.0x**
 - Applies automatically on every video — no manual adjusting
-- Skips YouTube Shorts and live streams (leaves them at normal speed)
 - Handles YouTube's single-page navigation — works video to video without a page reload
 - Enable/disable with a single toggle in the popup
 - Your speed preference is saved across sessions
@@ -72,7 +71,7 @@ YouTube is a single-page app — navigating between videos doesn't trigger a ful
 This extension:
 
 1. Listens for `yt-navigate-finish`, a custom event YouTube fires on every navigation
-2. Checks whether the current page is a regular watch page (not Shorts, not a live stream)
+2. Checks whether the current page is a regular watch page (not Shorts)
 3. Polls for YouTube's native `movie_player` API to become available
 4. Calls `player.setPlaybackRate()` directly — the same method YouTube's own UI uses
 5. Forwards any popup setting changes into the page instantly via `postMessage`
