@@ -32,7 +32,7 @@ If you want to run it locally, test it, or modify it yourself:
 **1. Clone or download this repo**
 
 ```
-git clone https://github.com/YOURUSERNAME/yt-speed-extension.git
+git clone https://github.com/jnpcreates/yt-speed-extension.git
 ```
 
 **2. Open Firefox and go to the debugging page**
