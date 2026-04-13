@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Red rounded rectangle background -->
+  <rect width="48" height="48" rx="10" fill="#cc0000"/>
+  <!-- Fast-forward: two right-pointing triangles + vertical bar, centered -->
+  <polygon points="9,14 21,24 9,34" fill="white"/>
+  <polygon points="21,14 33,24 21,34" fill="white"/>
+  <rect x="34" y="14" width="4" height="20" rx="1" fill="white"/>
+</svg>
